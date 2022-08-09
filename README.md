@@ -163,7 +163,7 @@ Now you will enter into the Docker container Terminal
 
 - Paste the IP Address in Browser URL
 
-- Now we can see the website is visible
+- Now we can see the website is hosted in Docker container
 
       
  
