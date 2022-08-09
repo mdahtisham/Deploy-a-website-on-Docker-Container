@@ -1,9 +1,15 @@
 # Deploy-a-website-on-Docker-Container
 
-In this project I deploy the static website in docker container
+PROJECT-I
 
-Technologies Used - Docker, AWS EC2, Apache2, Git & Github
+*Deploy the static website in Docker Container*
 
+In this project I deploy the static website in docker container using AWS Instance 
+
+Technologies Used - Docker, AWS-EC2, Apache2, Git & Github
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Step :-
@@ -19,8 +25,9 @@ Step :-
 5.Deploy the code in web server
 
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-.
+
 
 All Steps in details with Commands:-
 
@@ -161,8 +168,18 @@ Now you will enter into the Docker container Terminal
 
 - Now we can see the website is hosted in Docker container
 
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
       
- 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Docker
+
+
+Docker is a tool designed to make it easier to create , deploy and run application by using containers. Containers allow a developer to pakage up an application with all of the parts it needs, such as libraries and other dependencies and deploy it as one pakage. By doing so, thanks to the container, the developer can rest assured that the application will run on any other Linux machine regardless of any customize settings that machine might have that could differ from the machine used for writing and testing the code
+
 
 
 
