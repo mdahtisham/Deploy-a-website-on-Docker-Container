@@ -1,8 +1,8 @@
-# Deploy-a-website-on-Docker-Container
+# Web Page hosting-on-Docker-Container
 
 PROJECT-I
 
-*Deploy the static website in Docker Container*
+*Deploy the Web Page in Docker Container*
 
 In this project I deploy the static website in docker container using AWS Instance 
 
