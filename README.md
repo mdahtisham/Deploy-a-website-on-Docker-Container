@@ -19,15 +19,13 @@ Step :-
 5.Deploy the code in web server
 
 
-.
 
 .
 
 All Steps in details with Commands:-
 
-.
 
-----------------------------------------------------------AWS EC2 Instance----------------------------------------------------------------------
+----------------AWS EC2 Instance----------------------------
 
 
 - Click on EC2 service 
@@ -74,7 +72,7 @@ All Steps in details with Commands:-
 - Access the amazonlinux2 via the putty 
 
 
------------------------------------------------------- AmazonLinux----------------------------------------------------------------
+------------ AmazonLinux--------------
 
 
 - Command for root access
@@ -129,8 +127,7 @@ All Steps in details with Commands:-
       
 Now you will enter into the Docker container Terminal
 
--------------------------------------------------------------Docker Container-----------------------------------------------------------------
-
+---------------Docker Container----------------------
 - update
 
        bash-4.2 # yum update -y
