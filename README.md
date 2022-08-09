@@ -125,6 +125,47 @@ All Steps in details with Commands:-
 
       [root@ip--] # docker exec -it webserver /bin/bash
       
+      
+      
+Now you will enter into the Docker container Terminal
+
+-------------------------------------------------------------Docker Container-----------------------------------------------------------------
+
+- update
+
+       bash-4.2 # yum update -y
+       
+- Install the Apache2 web server
+
+      bash-4.2 # yum install httpd -y
+      
+- Open the html directory for deploy the html(index.html) file
+
+      bash-4.2 # cd var/www/html
+      
+- Run these 2 command
+
+      bash-4.2 # /usr/sbin/httpd
+      bash-4.2 # vi /root/.bashrc   ----- press esc key -> :wq -> enter key
+      
+- Create the index.html file in html directory
+
+      bash-4.2 # vi index.html
+      
+      (Hello world, it is my project) Website code - HTML, CSS
+      
+      press esc key -> :wq -> enter key
+      
+ 
+ ------------------------------------------------------------------------------------------------------------------------------------------
+     
+- Copy the IP Address from AWS EC2 Instance
+
+- Paste the IP Address in Browser URL
+
+- Now we can see the website is visible
+
+      
  
 
 
