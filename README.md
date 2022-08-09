@@ -21,8 +21,9 @@ Step :-
 
 .
 
+.
 
-All Steps with Commands:-
+All Steps in details with Commands:-
 
 .
 
@@ -68,6 +69,39 @@ AWS EC2 Instance-
       HTTPS------TCP---------443------Anywhere
       
 - Click on Review and Launch
+
+- Access the amazonlinux2 via the putty 
+
+
+------------------------------------------------------ AmazonLinux----------------------------------------------------------------
+
+-Command for root access
+
+      $ sudo su
+      
+- Update
+
+      [root@ip--] # yum update -y
+      
+- Install the Docker 
+
+      [root@ip--] # yum install docker -y
+      
+- Check the Docker version
+
+      [root@ip--] # docker --version
+      
+- Start the docker service 
+
+      [root@ip--] # service docker start
+      
+- Check docker service status active or still inactive
+
+      [root@ip--] # service docker status
+      
+- Search the AmazonLinux Image from DockerHub
+
+
 
 
 
