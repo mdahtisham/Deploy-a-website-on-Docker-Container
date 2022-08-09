@@ -160,13 +160,15 @@ Now you will enter into the Docker container Terminal
       press esc key -> :wq -> enter key
       
  
- ------------------------------------------------------------------------------------------------------------------------------------------
+ 
      
 - Copy the IP Address from AWS EC2 Instance
 
 - Paste the IP Address in Browser URL
 
 - Now we can see the website is hosted in Docker container
+
+*Done*
 
 
 
