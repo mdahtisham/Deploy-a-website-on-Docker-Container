@@ -24,5 +24,50 @@ Step :-
 
 All Steps with Commands:-
 
+.
+
+AWS EC2 Instance-
+
+- Click on EC2 service 
+
+- Click on the Launch Instance
+
+- Choose AMI
+
+      Amazon Linux2 AMI
+      
+- Coose an Instance Type
+      
+      t2.micro
+      
+- Configure Instance Details
+
+      Number of Instance = 1
+      Network = Default
+      Subnet = Default
+      Auto-Assign Public IP = Use subnet setting (Enable)
+      
+- Add Storage
+
+      Root - /dev/xvda  - Size-8GB  -- Default
+      
+- Add Tags 
+
+      Name - Webserver
+      
+- Configure the Security Group
+
+      Select - Create a new security group 
+      Security group name = sg-webserver
+      
+      
+      -Type-----Protocol-----Port-----Source-
+      
+      SSH -------TCP---------22-------Anywhere
+      HTTP-------TCP---------80-------Anywhere
+      HTTPS------TCP---------443------Anywhere
+      
+- Click on Review and Launch
+
 
 
