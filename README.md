@@ -27,7 +27,8 @@ All Steps in details with Commands:-
 
 .
 
-AWS EC2 Instance-
+----------------------------------------------------------AWS EC2 Instance----------------------------------------------------------------------
+
 
 - Click on EC2 service 
 
@@ -75,7 +76,8 @@ AWS EC2 Instance-
 
 ------------------------------------------------------ AmazonLinux----------------------------------------------------------------
 
--Command for root access
+
+- Command for root access
 
       $ sudo su
       
@@ -100,6 +102,30 @@ AWS EC2 Instance-
       [root@ip--] # service docker status
       
 - Search the AmazonLinux Image from DockerHub
+
+      [root@ip--] # docker search amazonlinux 
+      
+- Pull Images
+
+      [root@ip--] # docker pull amazonlinux
+      
+- Check the Images
+
+      [root@ip--] # docker images
+      
+- Run the container with existence image and expose the port 80
+
+      [root@ip--] # docker run -td --name webserver -p 80:80 amazonlinux
+      
+- Check the port 
+
+      [root@ip--] # docker port webserver
+      
+- Execute the Command
+
+      [root@ip--] # docker exec -it webserver /bin/bash
+      
+ 
 
 
 
