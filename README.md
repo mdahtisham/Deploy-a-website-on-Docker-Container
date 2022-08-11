@@ -43,7 +43,7 @@ All Steps in details with Commands:-
 
       Amazon Linux2 AMI
       
-- Coose an Instance Type
+- Choose an Instance Type
       
       t2.micro
       
