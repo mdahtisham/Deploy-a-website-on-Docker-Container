@@ -1,0 +1,63 @@
+# Docker Configuration
+
+
+-Install the Docker
+	[root@ip--] # yum install docker -y
+
+-Check the Docker version
+	[root@ip--] # docker --version
+
+-Start the docker service
+	[root@ip--] # service docker start
+
+-Check docker service status active or still inactive
+	[root@ip--] # service docker status
+
+-Search the AmazonLinux Image from DockerHub
+	[root@ip--] # docker search amazonlinux 
+
+-Pull Images
+	[root@ip--] # docker pull amazonlinux
+
+-Check the Images
+	[root@ip--] # docker images
+
+-Run the container with existence image and expose the port 80
+	[root@ip--] # docker run -td --name webserver -p 80:80 amazonlinux
+
+-Check the port
+	[root@ip--] # docker port webserver
+
+-Execute the Command
+	[root@ip--] # docker exec -it webserver /bin/bash
+
+
+-Now you will enter into the Docker container Terminal
+
+
+
+-----------------------------------Docker Container-----------------------------------
+
+-update
+	bash-4.2 # yum update -y
+
+-Install the Apache2 web server
+	bash-4.2 # yum install httpd -y
+
+-Open the html directory for deploy the html(index.html) file
+	bash-4.2 # cd var/www/html
+
+-Run these 2 command
+	bash-4.2 # /usr/sbin/httpd
+	bash-4.2 # vi /root/.bashrc   ----- press "esc" key -> :wq -> enter key
+
+-Create the index.html file in html directory
+	bash-4.2 # vi index.html     -----(Deploy the website code)
+
+-Copy the IP Address from AWS EC2 Instance
+
+-Paste the IP Address in Browser URL
+
+-Now we can see the website is hosted in Docker container
+
+-Done
