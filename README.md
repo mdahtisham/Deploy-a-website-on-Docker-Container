@@ -71,7 +71,7 @@ All Steps in details with Commands:-
       Select - Create a new security group 
       Security group name = sg-webserver
       
-      Allow HTTPS or HTTP traffic from the internet
+      Allow HTTPS - 443 or HTTP - 80 for incomming or outgoing traffic from the internet
       
 - Configure the Storage
 
