@@ -29,9 +29,16 @@ Step :-
 5.Deploy the code in web server
 
 
+
+
+
+
+![WhatsApp Image 2022-11-20 at 23 19 14](https://user-images.githubusercontent.com/64635312/205506041-0e41210a-154c-45db-882d-9c8a89e66876.jpg)
+
+
+
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 
 All Steps in details with Commands:-
 
