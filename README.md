@@ -8,7 +8,7 @@ In this project I deploy the static website in docker container using AWS Instan
 
 Technologies Used - Docker, AWS-EC2, Apache2, Git & Github
 
-I published this Project on Geeksfogeeks Website 
+I published this Project on Geeksforgeeks Website 
 
 https://www.geeksforgeeks.org/web-page-hosting-in-docker-container-using-aws/
 
